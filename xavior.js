@@ -2932,7 +2932,7 @@ Siap Melayani Anda
 Ketik (.menu) Untuk Mengakses
 Mau Script? Bisa Chat Owner
 Thanks Sudah Menggunakan
-ZerooTwoo Jangan Lupa Subscribe
+ZerooTwoo Jangan Lupa Donasi
 Qris : https://telegra.ph/file/8b56819006176f6cbbe22.jpg
 Nih Musik Buat Menghibur
 ───────⭓`
