@@ -12,7 +12,7 @@ global.APIKeys = {
 }
 
 // NAMBAH BOLEH HAPUS JANGAN -_-
-global.owner = ['6283830815715''6282236509120']
+global.owner = ['6283830815715']
 global.premium = ['6283830815715']
 global.packname = 'ZerooBot'
 global.author = 'Tsyaa'
