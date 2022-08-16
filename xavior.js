@@ -534,12 +534,12 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `*Halo Bre 😁*\n\n Bot Rental Prices\n⭔ 15k Per Group via Shoppepay 1 Month\n⭔ 20k via pulsa 1 Month\n\n\nhttps://wa.me/6281908052908 (Owner)\n\nDonate For Me : \n\n⭔ Saweria : https://saweria.co/nanang13` }, { quoted: m })
+                xavior.sendMessage(m.chat, { image: goblok, caption: `*Halo Bre 😁*\n\n Bot Rental Prices\n⭔ 5k Per Group via Dana 1 Permanen\n⭔ 10k via pulsa Permanen\n\n\nhttps://wa.me/6283830815715 (Owner)\n\nDonate For Me : \n\n⭔ qriss : https://telegra.ph/file/8b56819006176f6cbbe22.jpg` }, { quoted: m })
             }
             case 'subscribe':{
             smeme = fs.readFileSync('./video/bro.mp4')
 
-xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g`},{ quoted: m })} break
+xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Donasi\n\nJangan PHP Yah 😊\n\nQriss:https://telegra.ph/file/8b56819006176f6cbbe22.jpg`},{ quoted: m })} break
 
 case 'runtime': { m.reply('4 days, 9 hours, 26 minutes')}
           break
@@ -554,7 +554,7 @@ xavior.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {q
             case 'session': {
             if (!isCreator) throw mess.owner
             ana = fs.readFileSync('./Xavior.json')
-              m.reply('*Woe Bre Minimal Subscribe Yt MBY•OFFICIAL Lah*')
+              m.reply('*Woe Bre Minimal DONASI Lah*')
             xavior.sendMessage(m.chat, {document: ana, mimetype: 'application/json', fileName: `Xavior.json`}, {quoted:m})}
             break
             
@@ -860,7 +860,7 @@ xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `Int
             break
             case 'namafotobot|subscribe': {
              if (!isCreator) throw mess.owner
-             xavior.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `Foto menu Berhasil Diganti\n\nHei Lord *MBY•OFFICIAL*..🙏\n\nJangan Sering Sering Ubah Fot Bot Yah🗿` }, { quoted: m })
+             xavior.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `Foto menu Berhasil Diganti\n\nHei Lord *ZerooTwoo*..🙏\n\nJangan Sering Sering Ubah Fot Bot Yah🗿` }, { quoted: m })
             } break
             
            case 'setppgroup': case 'setppgrup': case 'setppgc': {
@@ -1227,13 +1227,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1247,7 +1247,7 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'Qris',
                                     id: 'noenc'
                                 }
                             }]
@@ -1259,15 +1259,15 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Subscribe Yt MBY•OFFICIAL`
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Donasi Lah banh`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1281,7 +1281,7 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'Qris',
                                     id: 'noenc'
                                 }
                             }]
@@ -1629,13 +1629,13 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ⭔ *Title* : Tutor Buat Bot Seperti Di Gc 🗿
-⭔ *No Wa*: 081511480762
+⭔ *No Wa*: 083830815715
 ⭔ *Duration* : 24Hours
 ⭔ *Viewers* : 14M views
 ⭔ *Upload* At : 1 years ago
-⭔ *Author* : MBY•OFFICIAL 
+⭔ *Author* : Tasyaa 
 ⭔ *Channel* : ${anu.author.url}
-⭔ *Description* : Gak Subrek Bot Mati!
+⭔ *Description* : Gak Donasi Bot Mat🗿!
 ⭔ *Url* : ${anu.url}`,
                     footer: global.author,
                     buttons: buttons,
@@ -2802,13 +2802,13 @@ let capt = `⭔ Title: ${judul}
             case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `AzzBot Siap membantu anda\n`,
+                    title: `ZerooTwot Siap membantu anda\n`,
                     description: "*Klik tombol dibawah*",
                     buttonText: "Menu",
                     footerText: "Note:JANGAN SPAM!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By MBY•OFFICIAL🤖",
+								"title": "🤖Bot By  ZerooTwoo🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2910,7 +2910,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Owner 👨‍💻",
 								"rows": [
 									{
-										"title": "MBY•OFFICIAL",
+										"title": " ZerooTwoo",
 										"rowId": `${prefix}owner`
 									
 									}]
@@ -2923,7 +2923,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 
             
-            case 'okay': { m.reply('Subrek lah Yt MBY•OFFICIAL')} break
+            case 'okay': { m.reply('ZerooTwoo')} break
             
              case 'menu': {
             anu = `── *Welcome* ──
@@ -2932,8 +2932,8 @@ Siap Melayani Anda
 Ketik (.menu) Untuk Mengakses
 Mau Script? Bisa Chat Owner
 Thanks Sudah Menggunakan
-AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+ZerooTwoo Jangan Lupa Subscribe
+Qris : https://telegra.ph/file/8b56819006176f6cbbe22.jpg
 Nih Musik Buat Menghibur
 ───────⭓`
             let btn = [{
@@ -2965,10 +2965,9 @@ break
  case 'allmenu': {
                 anu = `
 
-┌──⭓ *𝘈𝘻𝘻𝘉𝘰𝘵•𝘔𝘋*
-│⭔ 𝘖𝘸𝘯𝘦𝘳:𝗬𝗮𝗵𝘆𝗮 
+┌──⭓ *ZerooTwoo•𝘔𝘋*
+│⭔ 𝘖𝘸𝘯𝘦𝘳:Tasyaa 
 │⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: 4.0
-│⭔ 𝘙𝘶𝘯𝘝𝘪𝘢:𝘏𝘦𝘳𝘰𝘬𝘶
 └───────⭓
 
 
@@ -3290,17 +3289,17 @@ break
 │
 └───────⭓
 
-𝐀𝐳𝐳𝐁𝐨𝐭•𝐌𝐃
+ZerooTwoo•𝐌𝐃
 𝐁𝐲:𝐘𝐚𝐡𝐲𝐚𝐆𝐚𝐧𝐳𝐳|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3361,13 +3360,13 @@ break
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3416,13 +3415,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3477,13 +3476,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3533,13 +3532,13 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3597,13 +3596,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3675,13 +3674,13 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3734,13 +3733,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3790,13 +3789,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3851,13 +3850,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3928,13 +3927,13 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3993,13 +3992,13 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4050,13 +4049,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4105,13 +4104,13 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4155,13 +4154,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4206,13 +4205,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4264,13 +4263,13 @@ case 'webzone': {
 └───────⭓`
                  let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4325,13 +4324,13 @@ case 'webzone': {
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    displayText: 'Qris',
+                                    url: 'https://telegra.ph/file/8b56819006176f6cbbe22.jpg'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '6283830815715'
                                 }
                             }, {
                                 quickReplyButton: {
